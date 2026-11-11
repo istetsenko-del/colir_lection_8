@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="title">
+<title id="title">Чашка чаю, лимон, темне листя й нейтральне тло</title>
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#d8d8d8"/><stop offset="1" stop-color="#a9a9a9"/></linearGradient>
+ <linearGradient id="ceramic"><stop stop-color="#a9a9a9"/><stop offset=".45" stop-color="#f7f7f7"/><stop offset=".78" stop-color="#e4e4e4"/><stop offset="1" stop-color="#b4b4b4"/></linearGradient>
+ <radialGradient id="tea"><stop stop-color="#d99836"/><stop offset=".68" stop-color="#955119"/><stop offset="1" stop-color="#3d210d"/></radialGradient>
+ <linearGradient id="leaf" x2=".8" y2="1"><stop stop-color="#56764b"/><stop offset="1" stop-color="#152b1e"/></linearGradient>
+ <radialGradient id="shade"><stop stop-color="#292929" stop-opacity=".58"/><stop offset="1" stop-color="#292929" stop-opacity="0"/></radialGradient>
+</defs>
+<path fill="url(#wall)" d="M0 0h800v400H0z"/><path fill="#8d8d8d" d="M0 229h800v171H0z"/>
+<ellipse cx="403" cy="329" rx="295" ry="57" fill="url(#shade)"/>
+<path d="M56 272Q139 249 235 153" fill="none" stroke="#35372b" stroke-width="5"/>
+<path d="M92 259Q36 246 37 204Q85 208 115 247M135 238Q75 213 104 158Q145 183 152 227M171 210Q139 145 178 127Q201 169 183 204M196 186Q218 125 271 124Q254 167 196 186M116 248Q165 251 181 295Q127 296 97 256M154 228Q206 213 235 245Q192 266 154 228" fill="url(#leaf)" stroke="#243c28" stroke-width="2"/>
+<ellipse cx="419" cy="315" rx="200" ry="40" fill="#c2c2c2"/><ellipse cx="414" cy="305" rx="179" ry="31" fill="#e4e4e4"/><ellipse cx="411" cy="300" rx="118" ry="25" fill="#bcbcbc"/>
+<path d="M530 191Q638 170 617 243Q600 285 525 272" fill="none" stroke="#b6b6b6" stroke-width="25"/><path d="M535 188Q633 168 610 233Q594 265 533 264" fill="none" stroke="#f4f4f4" stroke-width="11"/>
+<path d="M270 166Q284 269 319 294Q407 327 490 295Q528 267 545 166Z" fill="url(#ceramic)"/>
+<ellipse cx="407" cy="166" rx="137" ry="47" fill="#fafafa"/><ellipse cx="407" cy="169" rx="122" ry="35" fill="url(#tea)"/><path d="M319 169Q361 147 404 151" fill="none" stroke="#f8c47a" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="664" cy="310" rx="81" ry="25" fill="url(#shade)"/><path d="M608 297Q655 239 720 282Q708 324 659 333Q618 329 608 297Z" fill="#bc8a1d"/><path d="M608 297Q655 239 720 282Q673 311 608 297Z" fill="#f6d36a" stroke="#e8b52f" stroke-width="5"/><path d="M657 292l-20-15m20 15 0-25m0 25 23-23m-23 23 40-13" stroke="#fff0a3" stroke-width="2"/>
+<path d="M34 48h111" stroke="#efefef" stroke-width="6"/><path d="M34 61h77" stroke="#aaa" stroke-width="3"/>
+</svg>
